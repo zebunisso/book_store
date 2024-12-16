@@ -1,3 +1,5 @@
+/* Пример стилей для сайта */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,18 +9,32 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;
+    color: white;
     padding: 10px 0;
     text-align: center;
 }
 
-main {
-    padding: 20px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
     background-color: #333;
-    color: #fff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
